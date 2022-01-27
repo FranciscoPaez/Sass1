@@ -1,0 +1,36 @@
+
+
+footer {
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    ul {
+        margin: 0 5rem;
+        padding-top: 3rem;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .btn-1{
+        padding: 0.5rem;
+        background-color: #6341fd1f;
+
+        &:hover{
+            background-color: #250d9167;
+        }
+    }
+    background-color: #666666;
+    padding-bottom: 1rem;
+}
+
+
+
+
+

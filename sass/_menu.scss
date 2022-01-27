@@ -1,0 +1,59 @@
+$btnBoxColor: #250d918e;
+$colorTwo: #250d9167;
+
+.header{
+    width: 100%;
+}
+.header__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0; 
+    background: $btnBoxColor;
+}
+
+.header__logo{
+   a{
+       text:{
+           decoration: none;
+       }
+       color: $colorTwo;
+       font:{
+           size: 1.5rem; 
+           weight: 600; 
+       }
+   }
+}
+
+.header__menu{
+    list-style: none;
+    padding: 0;
+    li{
+        display: inline-block;
+
+        &:nth-child(5){
+            font-weight: 800;   
+        }
+    }
+    a{
+        text: {
+            decoration: none;
+            transform: uppercase;
+            align: center;
+        }
+        
+        font: {
+            size: .8rem;
+        }
+
+        color: #fff;
+        padding: 1rem;
+
+        &:hover{
+            background-color: $colorTwo;
+            border-radius: 1rem;
+            padding: .8rem;
+        }
+    }
+}
